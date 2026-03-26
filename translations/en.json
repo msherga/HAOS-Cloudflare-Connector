@@ -1,0 +1,8 @@
+{
+  "configuration": {
+    "token": {
+      "name": "Cloudflare Tunnel Token",
+      "description": "Your token can be found in Cloudflare One. Click 'Add a connector', ignore everything there and just copy the whole command given in the gray box. If you're feeling lazy, just paste the whole thing here and the token will be extracted for you. Alternatively, you can just paste your token if you have it already."
+    }
+  }
+}
