@@ -1,5 +1,5 @@
 name: "Cloudflare Connector"
-version: "1.1.0"
+version: "1.1.1"
 slug: "haos_cloudflare_connector"
 description: "Run a Cloudflare tunnel connector using a token"
 startup: services
