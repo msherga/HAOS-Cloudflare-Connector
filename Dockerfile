@@ -1,8 +1,8 @@
-FROM ghcr.io/home-assistant/base:latest
+FROM ghcr.io/home-assistant/base:3.24
 
 RUN apk add --no-cache curl jq
 
-# Install and verify patched cloudflared
+# Download the pinned cloudflared release and verify its published SHA-256.
 RUN curl -fL \
     https://github.com/cloudflare/cloudflared/releases/download/2026.10.4/cloudflared-linux-amd64 \
     -o /usr/bin/cloudflared && \
