@@ -4,9 +4,9 @@ RUN apk add --no-cache curl jq
 
 # Install and verify patched cloudflared
 RUN curl -fL \
-    https://github.com/cloudflare/cloudflared/releases/download/2026.10.4/cloudflared-linux-amd64 \
+    https://github.com/cloudflare/cloudflared/releases/download/2026.10.7/cloudflared-linux-amd64 \
     -o /usr/bin/cloudflared && \
-    echo "ae5e8add7884b0531d66bbca4570d1de491ff6da51e4ebe7eb160cdf241d9e42  /usr/bin/cloudflared" | sha256sum -c - && \
+    echo "1f99fb518b83dec2ba8d870a7cc991d82a77e6196295a3d2754ba17ab9f91872  /usr/bin/cloudflared" | sha256sum -c - && \
     chmod +x /usr/bin/cloudflared && \
     /usr/bin/cloudflared --version
 
