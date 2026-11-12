@@ -1,3 +1,6 @@
+## 1.1.2
+- Updated cloudflared from 2026.10.4 to 2026.11.0.
+
 ## 1.1.0
 - Transitioned from local app to github-hosted.
 
